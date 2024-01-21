@@ -34,22 +34,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Begin by visiting the official osTicket website or GitHub repository and download the latest stable release of osTicket to your local machine.Extract the downloaded osTicket archive to your desired installation directory on your server or hosting environment.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Ensure that your server meets the necessary requirements, including a compatible web server (e.g., Apache or Nginx) and the required version of PHP. Adjust server settings as needed.Create a new database for osTicket and a dedicated user with appropriate permissions. Note down the database name, username, and password for use during the installation.Configure your web server to serve osTicket files. Create a virtual host or update server block configurations based on your web server (Apache or Nginx).Adjust file permissions to ensure that the web server has the necessary read and write access to osTicket directories. Refer to the osTicket documentation for recommended permissions.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Open a web browser and navigate to the URL where osTicket is installed. The installer will guide you through the initial setup process.Provide the necessary database information during installation, including the hostname, database name, username, and password created in the earlier steps.Configure email settings in osTicket to enable ticket notifications. Specify SMTP settings or use alternative methods based on your email server setup.Complete the installation by creating an administrator account. This account will be used to access the osTicket admin panel, where you can further customize settings and manage support tickets.</p>
 <br />
