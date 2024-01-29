@@ -45,7 +45,7 @@ Ensure that your server meets the necessary requirements, including a compatible
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/DUmfgZf" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open a web browser and navigate to the URL where osTicket is installed. The installer will guide you through the initial setup process.Provide the necessary database information during installation, including the hostname, database name, username, and password created in the earlier steps.Configure email settings in osTicket to enable ticket notifications.</p>
