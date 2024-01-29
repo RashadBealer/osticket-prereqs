@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/osticketimage.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Begin by visiting the official osTicket website or GitHub repository and download the latest stable release of osTicket to your local machine.Extract the downloaded osTicket archive to your desired installation directory on your server or hosting environment.</p>
