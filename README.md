@@ -36,7 +36,7 @@ Begin by visiting the official osTicket website or GitHub repository and downloa
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/g9i3fPL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Ensure that your server meets the necessary requirements, including a compatible web server (e.g., Apache or Nginx) and the required version of PHP. Adjust server settings as needed.Create a new database for osTicket and a dedicated user with appropriate permissions.</p> 
