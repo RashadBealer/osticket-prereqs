@@ -47,17 +47,53 @@ Connect to the Azure VM using Microsoft Remote Desktop. Retrieve the VM's public
 <p>
 <img src="https://i.imgur.com/pmRgfgF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Ensure that your server meets the necessary requirements, including a compatible web server (e.g., Apache or Nginx) and the required version of PHP. Adjust server settings as needed.Create a new database for osTicket and a dedicated user with appropriate permissions.</p> 
+<p>Enable IIS:
+On the Azure VM, open the "Server Manager."
+Select "Manage" > "Add Roles and Features" and install the IIS role.
+</p>
 
-<p>Note down the database name, username, and password for use during the installation.Configure your web server to serve osTicket files. Create a virtual host or update server block configurations based on your web server (Apache or Nginx).Adjust file permissions to ensure that the web server has the necessary read and write access to osTicket directories. Refer to the osTicket documentation for recommended permissions.</p>
+<p>
+  Download osTicket:
+
+Use a web browser on the Azure VM to download the latest version of osTicket.</p>
+
+<p>Extract and Move Files:
+
+Extract the osTicket archive and move the files to the C:\inetpub\wwwroot directory (default IIS web root).</p>
+
+<p>Configure Permissions:
+
+Adjust permissions on the osTicket directory to ensure IIS has necessary read and write access.
+</p>
+
+<p>
+  Set Up Database:
+Use Microsoft SQL Server or another supported database server on the Azure VM.
+Create a new database for osTicket and note down the connection details.
+</p>
+
+<p>
+  Navigate to Installer:
+Open a web browser on the Azure VM and navigate to http://localhost or use the VM's public IP address.
+Follow the on-screen instructions to complete the osTicket installation.
+</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/g9i3fPL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open a web browser and navigate to the URL where osTicket is installed. The installer will guide you through the initial setup process.Provide the necessary database information during installation, including the hostname, database name, username, and password created in the earlier steps.Configure email settings in osTicket to enable ticket notifications.</p>
+Admin Panel Setup:
+
+Access the osTicket admin panel using the administrator credentials you created during the installation.
+Customize settings, configure email, and set up departments as needed.</p>
   
-<p>Specify SMTP settings or use alternative methods based on your email server setup.Complete the installation by creating an administrator account. This account will be used to access the osTicket admin panel, where you can further customize settings and manage support tickets.</p>
+<p>Test and Secure:
+
+Create a sample ticket to ensure that osTicket is working correctly.
+Implement security measures, such as using HTTPS, securing sensitive directories, and keeping the osTicket software up to date.</p>
+
+<p>
+  Secure Remote Desktop:
+Implement security measures for Remote Desktop, such as using Network Level Authentication (NLA) and strong authentication methods.</p>
 <br />
